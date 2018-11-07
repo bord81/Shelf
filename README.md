@@ -4,7 +4,7 @@ This is my personal "yet-another-book-shelf" project.
 The intent was to make a simple terminal program to keep track of my physical
 library.
 
-It is written in C and uses SQLite and STFL libraries (links below).
+It is written in C and uses SQLite, STFL libraries and ncursesw (links below).
 These have to be installed in prior so the compilation succeeds.
 Please change their paths in Makefile if they are different on your system.
 And then simply run 'make'.
