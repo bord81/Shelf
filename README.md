@@ -12,3 +12,5 @@ And then simply run 'make'.
 https://www.sqlite.org/download.html
 
 http://www.clifford.at/stfl/
+
+P.S.: As of now working with non-ASCII symbols os not supported but I'm going to fix it soon.
