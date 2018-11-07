@@ -7,6 +7,7 @@ library.
 It is written in C and uses SQLite and STFL libraries (links below).
 These have to be installed in prior so the compilation succeeds.
 Please change their paths in Makefile if they are different on your system.
+And then simply run 'make'.
 
 https://www.sqlite.org/download.html
 
