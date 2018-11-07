@@ -251,6 +251,7 @@ static void edit_sm(struct stfl_form* form, struct b_entries* shelf)
             wmemcpy(new_shelf, stfl_get(form, L"in_field_text"), shelf_size);
             stfl_set(form, L"in_field_text", L"");
             sm_state = STATE_START;
+            init_books_info(form);
             toggle_edit(form);
             if (edit_mode == BOOK_EDIT_MODE) {
                 if (!wcscmp(shelf->shelf, new_shelf) && !entry_changed) {
